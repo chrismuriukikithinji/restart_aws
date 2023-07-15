@@ -1,0 +1,29 @@
+print("Hello, world")
+print("python has three numeric data types: float, int, complex")
+myvalue=1
+print(myvalue)
+print(type(myvalue))
+print(str(myvalue) + " is of the data type " + str(type(myvalue)))
+myvalue=3.142
+print(myvalue)
+print(str(myvalue) + " is of the data type " + str(type(myvalue)))
+
+
+print("hello" +"wolrd")
+
+import csv
+import copy
+
+myVehicle = {
+    "vin" : "<empty>",
+    "make" : "<empty>" ,
+    "model" : "<empty>" ,
+    "year" : 0,
+    "range" : 0,
+    "topSpeed" : 0,
+    "zeroSixty" : 0.0,
+    "mileage" : 0
+}
+for key, value in myvehicle.items():
+    print("{} : {}". format(key,value))
+mymixedtypelist = []
